@@ -22,6 +22,16 @@ html, body {
   color:  #e8fdff;
 }
 
+.display-5 {
+  font-family: 'Great Vibes', cursive;
+  color:  #005064;
+}
+
+.display-6 {
+  font-family: "Amatic SC", cursive, "Garamond", Georgia, serif;
+  color:  #005064;
+}
+
 /*  -------- Navbar --------  */
 nav {
   display: flex;
@@ -71,6 +81,23 @@ nav {
 }
 
 /*  -------- Media queries --------  */
+/*
+Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}
+*/
+
 
 /*
 font-family: 'Amatic SC', cursive;
