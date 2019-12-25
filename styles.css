@@ -1,7 +1,25 @@
-body {
-  background-color: #005064;
-  color: #e8fdff;
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #005064;
+  background-color: #e8fdff;
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.display-3 {
+  font-family: "Amatic SC", cursive, "Garamond", Georgia, serif;
+  color:  #e8fdff;
+}
+
+.display-4 {
+  font-family: 'Great Vibes', cursive;
+  color:  #e8fdff;
+}
+
+.lead {
+  color:  #e8fdff;
 }
 
 /*  -------- Navbar --------  */
@@ -13,28 +31,39 @@ nav {
   background-color: #005064;
 }
 
+.navbar-brand {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 2em;
+  min-width: 1em;
+}
+
 /* Navbar brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #e8fdff;
+    color: red !important;
 }
 
 /* Navbar link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: green;
 }
 /* Navbar color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+    color: purple;
 }
 
 .navbar-collapse {
   justify-content: flex-end;
 }
 
-/*  -------- Body of website --------  */
+/*  -------- Jumbotron --------  */
+.jumbotron {
+  background-color: #005064;
+}
+
+/*  -------- Cards --------  */
 .card-container {
   display: flex;
   flex-flow: row wrap;
@@ -42,3 +71,10 @@ nav {
 }
 
 /*  -------- Media queries --------  */
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lovers Quarrel', cursive;
+font-family: 'Eagle Lake', cursive;
+*/
