@@ -32,7 +32,22 @@ html, body {
   color:  #005064;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container-work {
+  padding-bottom: 2.5rem;
+}
+
 /*  -------- Navbar --------  */
+.nav-wrapper {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+}
+
 nav {
   display: flex;
 }
@@ -78,6 +93,28 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.card-title, .card-text {
+  color: #e8fdff;
+}
+
+/*  -------- Footer --------  */
+footer {
+  bottom: 0;
+  height: 2.5rem;
+  background-color: #005064;
+  color: #e8fdff;
 }
 
 /*  -------- Media queries --------  */
