@@ -87,6 +87,7 @@ nav {
 /*  -------- Jumbotron --------  */
 .jumbotron {
   background-color: #005064;
+  padding-top: 8rem;
 }
 
 /*  -------- Cards --------  */
@@ -116,6 +117,7 @@ nav {
   height: 2.5rem;
   background-color: #005064;
   color: #e8fdff;
+  margin: auto;
 }
 
 /*  -------- Media queries --------  */
