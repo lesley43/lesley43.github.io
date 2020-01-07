@@ -46,6 +46,7 @@ html, body {
   position: fixed;
   margin: auto;
   width: 100%;
+  z-index: 9999;
 }
 
 nav {
