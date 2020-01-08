@@ -5,12 +5,12 @@ html, body {
   color: #005064;
   background-color: #e8fdff;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Amatic SC", "Courier New", Courier, monospace;
 }
 
-.display-3 {
-  font-family: "Amatic SC", cursive, "Garamond", Georgia, serif;
-  color:  #e8fdff;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .display-4 {
